@@ -1,12 +1,14 @@
-import { Hero } from "@/src/components/hero";
+import { Benefits } from "@/src/components/benefits";
 import { Navigation } from "@/src/components/navigation";
 import { Footer } from "@/src/components/footer";
 
-export default function Home() {
+export default function BenefitsPage() {
   return (
     <main className="w-full bg-white text-foreground">
       <Navigation/>
-      <Hero/>
+      <section className="pt-20">
+        <Benefits/>
+      </section>
       <Footer/>
     </main>
   );
