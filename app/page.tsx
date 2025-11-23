@@ -1,13 +1,9 @@
 import { Hero } from "@/src/components/hero";
-import { Navigation } from "@/src/components/navigation";
-import { Footer } from "@/src/components/footer";
 
 export default function Home() {
   return (
     <main className="w-full bg-white text-foreground">
-      <Navigation/>
       <Hero/>
-      <Footer/>
     </main>
   );
 }

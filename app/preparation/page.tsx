@@ -4,12 +4,10 @@ import { Footer } from "@/src/components/footer";
 
 export default function PreparationPage() {
   return (
-    <main className="w-full bg-white text-foreground">
-      <Navigation/>
+    <div className="w-full bg-white text-foreground">
       <section className="pt-20">
         <Preparation/>
       </section>
-      <Footer/>
-    </main>
+    </div>
   );
 }
