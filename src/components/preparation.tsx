@@ -62,7 +62,7 @@ export function Preparation() {
               onClick={() => toggleCategory(`step-${idx}`)}
             >
               <div className="flex items-start gap-6">
-                <div className="flex-shrink-0 relative w-16 h-16 rounded-full bg-gradient-to-br from-primary/80 to-primary/40 flex items-center justify-center">
+                <div className="shrink-0 relative w-16 h-16 rounded-full bg-linear-to-br from-primary/80 to-primary/40 flex items-center justify-center">
                   {item.icon}
                   <span className="absolute -top-2 -right-2 bg-primary-foreground text-primary font-bold text-xs w-5 h-5 rounded-full flex items-center justify-center shadow">
                     {item.step}
